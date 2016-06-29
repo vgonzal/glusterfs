@@ -13,3 +13,5 @@ RUN add-apt-repository  ppa:gluster/glusterfs-3.7
 RUN apt-get update 
 RUN apt-get -y install glusterfs-server
 
+#arrancamos servicio
+RUN service glusterfs start
