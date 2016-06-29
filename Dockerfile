@@ -8,5 +8,5 @@ MAINTAINER Vicente Gonzalez (franciscovicente.gonzalez@gmail.com)
 RUN apt-get update 
 RUN apt-get -y install python-software-properties
 RUN apt-get -y install software-properties-common
-RUN add-apt-repository ppa.launchpad.net/gluster/glusterfs-3.7/ubuntu
+RUN add-apt-repository  ppa:gluster/glusterfs-3.7
 RUN apt-get update 
