@@ -14,4 +14,4 @@ RUN apt-get update
 RUN apt-get -y install glusterfs-server
 
 #arrancamos servicio
-RUN service glusterfs start
+RUN service glusterfs-server start
