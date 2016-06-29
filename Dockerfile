@@ -5,3 +5,7 @@
 FROM ubuntu:14.04
 MAINTAINER Vicente Gonzalez (franciscovicente.gonzalez@gmail.com)
 
+RUN apt-get update 
+RUN apt-get install python-software-properties
+RUN add-apt-repository ppa:semiosis/ubuntu-glusterfs-3.7
+RUN apt-get update 
